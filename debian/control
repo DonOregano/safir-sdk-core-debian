@@ -1,0 +1,11 @@
+Source: safir-sdk-core
+Maintainer: Lars Hagström <lars@foldspace.nu>
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 9), cmake (>= 2.8.12)
+
+Package: safir-sdk-core
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: TODO
