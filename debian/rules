@@ -1,3 +1,7 @@
 #!/usr/bin/make -f
+
+#upstream recommends NDEBUG for release builds!
+export CPPFLAGS += -DNDEBUG
+
 %:
-	dh $@
+	dh $@ --parallel
