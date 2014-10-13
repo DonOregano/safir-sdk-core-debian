@@ -5,3 +5,7 @@ export CPPFLAGS += -DNDEBUG
 
 %:
 	dh $@ --parallel
+
+override_dh_auto_install: export DESTDIR=$$(pwd)/debian/safir-sdk-core 
+override_dh_auto_install:
+	cd obj-$(DEB_BUILD_MULTIARCH) && /usr/bin/cmake -DCOMPONENT=Runtime -P cmake_install.cmake
