@@ -1,0 +1,20 @@
+safir-sdk-core-testsuite: binary-without-manpage usr/bin/EntityIntegrityChecker
+safir-sdk-core-testsuite: binary-without-manpage usr/bin/EntityReceptionVerifier
+safir-sdk-core-testsuite: binary-without-manpage usr/bin/EntityStresser
+safir-sdk-core-testsuite: binary-without-manpage usr/bin/MessageLatencies
+safir-sdk-core-testsuite: binary-without-manpage usr/bin/MessageStresser
+safir-sdk-core-testsuite: binary-without-manpage usr/bin/MultiPingPong
+safir-sdk-core-testsuite: binary-without-manpage usr/bin/RequestLatencies
+safir-sdk-core-testsuite: binary-without-manpage usr/bin/RequestPingPong
+safir-sdk-core-testsuite: binary-without-manpage usr/bin/RequestStresser
+safir-sdk-core-testsuite: binary-without-manpage usr/bin/SignalTest
+safir-sdk-core-testsuite: binary-without-manpage usr/bin/dose_com_control
+safir-sdk-core-testsuite: binary-without-manpage usr/bin/dose_test_cpp
+safir-sdk-core-testsuite: binary-without-manpage usr/bin/dose_test_sequencer
+safir-sdk-core-testsuite: binary-without-manpage usr/bin/entity_owner
+safir-sdk-core-testsuite: binary-without-manpage usr/bin/olib_test
+safir-sdk-core-testsuite: binary-without-manpage usr/bin/run_dope_odbc_backend_test
+safir-sdk-core-testsuite: binary-without-manpage usr/bin/run_dose_tests
+safir-sdk-core-testsuite: binary-without-manpage usr/bin/run_olib_tests
+safir-sdk-core-testsuite: binary-without-manpage usr/bin/run_sql
+
