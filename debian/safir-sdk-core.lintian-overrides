@@ -1,0 +1,6 @@
+#package contains one library that needs to be loaded by unversioned name
+safir-sdk-core-testsuite: non-dev-pkg-with-shlib-symlink *
+
+#This would just get too tiresome... Safir SDK Core contains so many libraries that this is unfeasable.
+safir-sdk-core: package-name-doesnt-match-sonames *
+
